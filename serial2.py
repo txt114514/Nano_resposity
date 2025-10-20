@@ -66,6 +66,8 @@ def main():
     serial_async = SerialAsync_t(port, baudrate, callback=data_callback)
     serial_async.start()
 
+    
+
     try:
         asyncio.get_event_loop().run_forever()
     except KeyboardInterrupt:
