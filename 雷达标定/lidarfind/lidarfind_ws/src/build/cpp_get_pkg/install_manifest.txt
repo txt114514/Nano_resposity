@@ -1,0 +1,16 @@
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/lib/cpp_get_pkg/FindLidar
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_get_pkg
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_get_pkg
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/share/cpp_get_pkg/environment/ament_prefix_path.sh
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/share/cpp_get_pkg/environment/ament_prefix_path.dsv
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/share/cpp_get_pkg/environment/path.sh
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/share/cpp_get_pkg/environment/path.dsv
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.bash
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.sh
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.zsh
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.dsv
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/share/cpp_get_pkg/package.dsv
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/share/ament_index/resource_index/packages/cpp_get_pkg
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/share/cpp_get_pkg/cmake/cpp_get_pkgConfig.cmake
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/share/cpp_get_pkg/cmake/cpp_get_pkgConfig-version.cmake
+/home/Elaina/lidarfind/lidarfind_ws/src/install/cpp_get_pkg/share/cpp_get_pkg/package.xml

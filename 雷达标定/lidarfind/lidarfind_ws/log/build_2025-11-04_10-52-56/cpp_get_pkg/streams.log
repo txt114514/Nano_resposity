@@ -1,0 +1,21 @@
+[0.012s] Invoking command in '/home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/Elaina/packages/ros_ws/install/ros_tcp_endpoint:/home/Elaina/packages/ros_ws/install/robot_imu:/opt/ros/humble /usr/bin/cmake --build /home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg -- -j22 -l22
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target FindLidar[0m
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/FindLidar.dir/src/FindLidar.cpp.o[0m
+[1.682s] [01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:[m[K In member function ‘[01m[Kvoid FindLidar::ProcessData(int)[m[K’:
+[1.682s] [01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:120:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<FindLidar::SaveTFData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.683s]   120 |             for (int i = 0; [01;35m[Ki < PlaceList.size()[m[K; ++i)
+[1.683s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[1.683s] [01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:145:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<FindLidar::SaveTFData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.683s]   145 |             for (int i = 0; [01;35m[Ki < center.size()[m[K; ++i) // 计算平均值
+[1.683s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[1.684s] [01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:153:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kfile[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kfill[m[K’?
+[1.684s]   153 |             std::[01;31m[Kfile[m[K << "圆心位置计算完成，原点位置为：x = %.3f , y = %.3f", avg_x, avg_y << std::endl;
+[1.684s]       |                  [01;31m[K^~~~[m[K
+[1.684s]       |                  [32m[Kfill[m[K
+[1.684s] [01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:153:92:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kfloat[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’ to binary ‘[01m[Koperator<<[m[K’
+[1.684s]   153 |             std::file << "圆心位置计算完成，原点位置为：x = %.3f , y = %.3f", avg_x, [01;31m[Kavg_y << std::endl[m[K;
+[1.684s]       |                                                                                      [01;31m[K~~~~~~^~~~~~~~~~~~[m[K
+[2.289s] gmake[2]: *** [CMakeFiles/FindLidar.dir/build.make:76: CMakeFiles/FindLidar.dir/src/FindLidar.cpp.o] Error 1
+[2.290s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/FindLidar.dir/all] Error 2
+[2.290s] gmake: *** [Makefile:146: all] Error 2
+[2.292s] Invoked command in '/home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/Elaina/packages/ros_ws/install/ros_tcp_endpoint:/home/Elaina/packages/ros_ws/install/robot_imu:/opt/ros/humble /usr/bin/cmake --build /home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg -- -j22 -l22

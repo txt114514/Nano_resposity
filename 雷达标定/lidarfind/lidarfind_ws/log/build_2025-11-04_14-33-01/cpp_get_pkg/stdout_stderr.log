@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target FindLidar[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/FindLidar.dir/src/FindLidar.cpp.o[0m
+[01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:[m[K In member function ‘[01m[Kvoid FindLidar::ProcessData(int)[m[K’:
+[01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:122:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<FindLidar::SaveTFData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  122 |             for (int i = 0; [01;35m[Ki < PlaceList.size()[m[K; ++i)
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:148:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<FindLidar::SaveTFData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  148 |             for (int i = 0; [01;35m[Ki < center.size()[m[K; ++i) // 计算平均值
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable FindLidar[0m
+[100%] Built target FindLidar
+-- Install configuration: ""
+-- Installing: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/lib/cpp_get_pkg/FindLidar
+-- Set runtime path of "/home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/lib/cpp_get_pkg/FindLidar" to ""
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_get_pkg
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_get_pkg
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/environment/path.sh
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/environment/path.dsv
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.bash
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.sh
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.zsh
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.dsv
+-- Installing: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/package.dsv
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/ament_index/resource_index/packages/cpp_get_pkg
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/cmake/cpp_get_pkgConfig.cmake
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/cmake/cpp_get_pkgConfig-version.cmake
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/package.xml

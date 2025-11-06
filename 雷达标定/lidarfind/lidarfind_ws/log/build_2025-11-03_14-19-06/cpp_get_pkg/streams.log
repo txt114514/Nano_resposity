@@ -1,0 +1,32 @@
+[0.022s] Invoking command in '/home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/Elaina/packages/ros_ws/install/ros_tcp_endpoint:/home/Elaina/packages/ros_ws/install/robot_imu:/opt/ros/humble /usr/bin/cmake --build /home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg -- -j22 -l22
+[0.128s] [ 50%] [32mBuilding CXX object CMakeFiles/FindLidar.dir/src/FindLidar.cpp.o[0m
+[2.856s] [01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:[m[K In member function ‘[01m[Kvoid FindLidar::ProcessData(int)[m[K’:
+[2.856s] [01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:116:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<FindLidar::SaveTFData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.856s]   116 |             for (int i = 0; [01;35m[Ki < PlaceList.size()[m[K; ++i)
+[2.856s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[2.857s] [01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:141:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<FindLidar::SaveTFData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.857s]   141 |             for (int i = 0; [01;35m[Ki < center.size()[m[K; ++i) // 计算平均值
+[2.857s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[5.098s] [100%] [32m[1mLinking CXX executable FindLidar[0m
+[5.404s] [100%] Built target FindLidar
+[5.416s] Invoked command in '/home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/Elaina/packages/ros_ws/install/ros_tcp_endpoint:/home/Elaina/packages/ros_ws/install/robot_imu:/opt/ros/humble /usr/bin/cmake --build /home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg -- -j22 -l22
+[5.432s] Invoking command in '/home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/Elaina/packages/ros_ws/install/ros_tcp_endpoint:/home/Elaina/packages/ros_ws/install/robot_imu:/opt/ros/humble /usr/bin/cmake --install /home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg
+[5.441s] -- Install configuration: ""
+[5.441s] -- Installing: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/lib/cpp_get_pkg/FindLidar
+[5.443s] -- Set runtime path of "/home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/lib/cpp_get_pkg/FindLidar" to ""
+[5.444s] -- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_get_pkg
+[5.444s] -- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_get_pkg
+[5.444s] -- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/environment/ament_prefix_path.sh
+[5.444s] -- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/environment/ament_prefix_path.dsv
+[5.444s] -- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/environment/path.sh
+[5.444s] -- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/environment/path.dsv
+[5.444s] -- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.bash
+[5.444s] -- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.sh
+[5.444s] -- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.zsh
+[5.445s] -- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.dsv
+[5.445s] -- Installing: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/package.dsv
+[5.445s] -- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/ament_index/resource_index/packages/cpp_get_pkg
+[5.445s] -- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/cmake/cpp_get_pkgConfig.cmake
+[5.445s] -- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/cmake/cpp_get_pkgConfig-version.cmake
+[5.445s] -- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/package.xml
+[5.447s] Invoked command in '/home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/Elaina/packages/ros_ws/install/ros_tcp_endpoint:/home/Elaina/packages/ros_ws/install/robot_imu:/opt/ros/humble /usr/bin/cmake --install /home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg

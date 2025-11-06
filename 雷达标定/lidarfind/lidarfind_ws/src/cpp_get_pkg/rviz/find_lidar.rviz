@@ -1,0 +1,48 @@
+Visualization Manager:
+  Class: ""
+  Name: "root"
+  Displays:
+    - Class: "rviz_default_plugins/Marker"
+      Name: "Lidar Points"
+      Marker Topic: "/tf_point"
+      Namespace: "tf_point"
+      Enabled: true
+      Queue Size: 10
+      Alpha: 1.0
+      Color: [0, 0.6, 1.0]  # 蓝点
+    - Class: "rviz_default_plugins/Marker"
+      Name: "Center Point"
+      Marker Topic: "/tf_point"
+      Namespace: "center_point"
+      Enabled: true
+      Queue Size: 10
+      Alpha: 1.0
+      Color: [1.0, 0.0, 0.0]  # 红点
+    - Class: "rviz_default_plugins/Grid"
+      Name: "Grid"
+      Enabled: true
+      Plane: "XY"
+      Cell Size: 0.5
+      Plane Cell Count: 20
+      Color: [0.5, 0.5, 0.5]
+      Alpha: 0.5
+      Line Style: "Lines"
+    - Class: "rviz_default_plugins/Axes"
+      Name: "Axes"
+      Enabled: true
+      Length: 1.0
+      Radius: 0.02
+  Global Options:
+    Fixed Frame: "camera_init"
+    Background Color: [0, 0, 0]
+    Frame Rate: 30
+  Views:
+    Current:
+      Class: "rviz_default_plugins/TopDownOrtho"
+      Name: "TopDown"
+      Target Frame: "camera_init"
+      Eye: [0, 0, 10]
+      Focus: [0, 0, 0]
+      Scale: 1
+      Near Clip: 0.01
+      Far Clip: 1000

@@ -1,0 +1,18 @@
+! .vscode/**
+.vscode/start_program
+.idea/
+build/
+laserdata(log)/
+log/
+install/
+!packages/ros-humble-ros1-bridge/**
+*.db3
+metadata.yaml
+.cache/
+*.pyc
+*.cpy
+*.zip
+*.mcap
+*.log
+*.lock
+rosbag2_*/

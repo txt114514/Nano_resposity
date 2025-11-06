@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target FindLidar[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/FindLidar.dir/src/FindLidar.cpp.o[0m
+[100%] [32m[1mLinking CXX executable FindLidar[0m
+[100%] Built target FindLidar
+-- Install configuration: ""
+-- Installing: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/lib/cpp_get_pkg/FindLidar
+-- Set runtime path of "/home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/lib/cpp_get_pkg/FindLidar" to ""
+-- Installing: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg//launch
+-- Installing: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg//launch/find_lidar.launch.py
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_get_pkg
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_get_pkg
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/environment/path.sh
+-- Installing: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/environment/path.dsv
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.bash
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.sh
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.zsh
+-- Installing: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/local_setup.dsv
+-- Installing: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/package.dsv
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/ament_index/resource_index/packages/cpp_get_pkg
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/cmake/cpp_get_pkgConfig.cmake
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/cmake/cpp_get_pkgConfig-version.cmake
+-- Up-to-date: /home/Elaina/lidarfind/lidarfind_ws/install/cpp_get_pkg/share/cpp_get_pkg/package.xml

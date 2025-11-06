@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000442] (cpp_get_pkg) JobQueued: {'identifier': 'cpp_get_pkg', 'dependencies': OrderedDict()}
+[0.000612] (cpp_get_pkg) JobStarted: {'identifier': 'cpp_get_pkg'}
+[0.019070] (cpp_get_pkg) JobProgress: {'identifier': 'cpp_get_pkg', 'progress': 'cmake'}
+[0.019508] (cpp_get_pkg) JobProgress: {'identifier': 'cpp_get_pkg', 'progress': 'build'}
+[0.020001] (cpp_get_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg', '--', '-j22', '-l22'], 'cwd': '/home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('HOSTNAME', 'txt'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/lib:/home/Elaina/packages/ros_ws/install/serial/lib:/home/Elaina/packages/ros_ws/install/rslidar_msg/lib:/home/Elaina/packages/ros_ws/install/hipnuc_lib_package/lib:/home/Elaina/packages/orbbec_ws/install/orbbec_camera/lib:/home/Elaina/packages/orbbec_ws/install/orbbec_camera_msgs/lib:/home/Elaina/packages/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/bin/helpers/browser.sh'), ('OMP_WAIT_POLICY', 'passive'), ('HOME', '/home/Elaina'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-6af075da-600e-4088-a781-fe17d14a6ad5.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/Elaina/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/Elaina/packages/ros_ws/install:/home/Elaina/packages/orbbec_ws/install:/home/Elaina/packages/ws_livox/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-abea5b1c-c289-41b9-a476-fddeea6279ef.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/f220831ea2d946c0dcb0f3eaa480eb435a2c1260/bin/remote-cli:/home/Elaina/packages/ros_ws/install/oradar_lidar/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/Elaina/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/Elaina/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-abea5b1c-c289-41b9-a476-fddeea6279ef.sock","/home/Elaina/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/Elaina/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-45edf1be2a188244.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/Elaina/.vscode-server/data/User/workspaceStorage/23cf47481ada4306d24f05f3da6f3b4e/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-86a24030ec.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-abea5b1c-c289-41b9-a476-fddeea6279ef.sock'), ('AMENT_PREFIX_PATH', '/home/Elaina/packages/ros_ws/install/serial:/home/Elaina/packages/ros_ws/install/rslidar_sdk:/home/Elaina/packages/ros_ws/install/rslidar_msg:/home/Elaina/packages/ros_ws/install/ros_tcp_endpoint:/home/Elaina/packages/ros_ws/install/robot_imu:/home/Elaina/packages/ros_ws/install/oradar_lidar:/home/Elaina/packages/ros_ws/install/hipnuc_imu:/home/Elaina/packages/ros_ws/install/hipnuc_gnss:/home/Elaina/packages/ros_ws/install/hipnuc_lib_package:/home/Elaina/packages/ros_ws/install/fdilink_ahrs:/home/Elaina/packages/orbbec_ws/install/orbbec_description:/home/Elaina/packages/orbbec_ws/install/orbbec_camera:/home/Elaina/packages/orbbec_ws/install/orbbec_camera_msgs:/home/Elaina/packages/ws_livox/install/livox_ros_driver2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/Elaina/packages/ros_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/Elaina/packages/ros_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/Elaina/packages/ros_ws/install/robot_imu/lib/python3.10/site-packages:/home/Elaina/packages/orbbec_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/home/Elaina/packages/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/Elaina/packages/ros_ws/install/serial:/home/Elaina/packages/ros_ws/install/rslidar_sdk:/home/Elaina/packages/ros_ws/install/rslidar_msg:/home/Elaina/packages/ros_ws/install/oradar_lidar:/home/Elaina/packages/ros_ws/install/hipnuc_imu:/home/Elaina/packages/ros_ws/install/hipnuc_gnss:/home/Elaina/packages/ros_ws/install/hipnuc_lib_package:/home/Elaina/packages/ros_ws/install/fdilink_ahrs:/home/Elaina/packages/orbbec_ws/install/orbbec_description:/home/Elaina/packages/orbbec_ws/install/orbbec_camera:/home/Elaina/packages/orbbec_ws/install/orbbec_camera_msgs:/home/Elaina/packages/ws_livox/install/livox_ros_driver2:/home/Elaina/packages/ros_ws/install/ros_tcp_endpoint:/home/Elaina/packages/ros_ws/install/robot_imu:/opt/ros/humble')]), 'shell': False}
+[0.040792] (cpp_get_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099763] (-) TimerEvent: {}
+[0.121603] (cpp_get_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.138171] (cpp_get_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.139497] (cpp_get_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.142630] (cpp_get_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.147452] (cpp_get_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.154078] (cpp_get_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.171130] (cpp_get_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.172107] (cpp_get_pkg) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.181459] (cpp_get_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.199827] (-) TimerEvent: {}
+[0.206522] (cpp_get_pkg) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.256354] (cpp_get_pkg) StdoutLine: {'line': b'-- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.279635] (cpp_get_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.299915] (-) TimerEvent: {}
+[0.321320] (cpp_get_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.321644] (cpp_get_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.321773] (cpp_get_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.321871] (cpp_get_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.321952] (cpp_get_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.322030] (cpp_get_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.322204] (cpp_get_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.322282] (cpp_get_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.322382] (cpp_get_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.322907] (cpp_get_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.400050] (-) TimerEvent: {}
+[0.402623] (cpp_get_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.407703] (cpp_get_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg\n'}
+[0.433777] (cpp_get_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target FindLidar\x1b[0m\n'}
+[0.500194] (-) TimerEvent: {}
+[0.556474] (cpp_get_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/FindLidar.dir/src/FindLidar.cpp.o\x1b[0m\n'}
+[0.600335] (-) TimerEvent: {}
+[0.700767] (-) TimerEvent: {}
+[0.801169] (-) TimerEvent: {}
+[0.901630] (-) TimerEvent: {}
+[1.002052] (-) TimerEvent: {}
+[1.102439] (-) TimerEvent: {}
+[1.202804] (-) TimerEvent: {}
+[1.303164] (-) TimerEvent: {}
+[1.403550] (-) TimerEvent: {}
+[1.503950] (-) TimerEvent: {}
+[1.604360] (-) TimerEvent: {}
+[1.704792] (-) TimerEvent: {}
+[1.805202] (-) TimerEvent: {}
+[1.905625] (-) TimerEvent: {}
+[2.006017] (-) TimerEvent: {}
+[2.106379] (-) TimerEvent: {}
+[2.206719] (-) TimerEvent: {}
+[2.307099] (-) TimerEvent: {}
+[2.407506] (-) TimerEvent: {}
+[2.507929] (-) TimerEvent: {}
+[2.608348] (-) TimerEvent: {}
+[2.708735] (-) TimerEvent: {}
+[2.809099] (-) TimerEvent: {}
+[2.909495] (-) TimerEvent: {}
+[3.009878] (-) TimerEvent: {}
+[3.110272] (-) TimerEvent: {}
+[3.210642] (-) TimerEvent: {}
+[3.311006] (-) TimerEvent: {}
+[3.411392] (-) TimerEvent: {}
+[3.511783] (-) TimerEvent: {}
+[3.588715] (cpp_get_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KFindLidar::FindLidar()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.589028] (cpp_get_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:53:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmarker_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmarker\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.589122] (cpp_get_pkg) StderrLine: {'line': b'   53 |         \x1b[01;31m\x1b[Kmarker_\x1b[m\x1b[K.header.frame_id = "camera_init"; // \xe4\xbd\xa0\xe6\x98\xbe\xe7\xa4\xba\xe7\x9a\x84\xe5\xb9\xb3\xe9\x9d\xa2\xe5\x8f\x82\xe8\x80\x83\xe5\x9d\x90\xe6\xa0\x87\xe7\xb3\xbb\n'}
+[3.589191] (cpp_get_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.589256] (cpp_get_pkg) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kmarker\x1b[m\x1b[K\n'}
+[3.592005] (cpp_get_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint FindLidar::GetTFMessage(FindLidar::SaveTFData&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.592175] (cpp_get_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:78:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmarker_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmarker\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.592264] (cpp_get_pkg) StderrLine: {'line': b'   78 |             \x1b[01;31m\x1b[Kmarker_\x1b[m\x1b[K.header.stamp = this->now(); // \xe6\x97\xb6\xe9\x97\xb4\xe6\x88\xb3\n'}
+[3.592340] (cpp_get_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.592427] (cpp_get_pkg) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kmarker\x1b[m\x1b[K\n'}
+[3.594006] (cpp_get_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FindLidar::ProcessData(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.594173] (cpp_get_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:148:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<FindLidar::SaveTFData>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.594273] (cpp_get_pkg) StderrLine: {'line': b'  148 |             for (int i = 0; \x1b[01;35m\x1b[Ki < PlaceList.size()\x1b[m\x1b[K; ++i)\n'}
+[3.594347] (cpp_get_pkg) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.594687] (cpp_get_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:174:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<FindLidar::SaveTFData>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.594793] (cpp_get_pkg) StderrLine: {'line': b'  174 |             for (int i = 0; \x1b[01;35m\x1b[Ki < center.size()\x1b[m\x1b[K; ++i) // \xe8\xae\xa1\xe7\xae\x97\xe5\xb9\xb3\xe5\x9d\x87\xe5\x80\xbc\n'}
+[3.594866] (cpp_get_pkg) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.611870] (-) TimerEvent: {}
+[3.712197] (-) TimerEvent: {}
+[3.812585] (-) TimerEvent: {}
+[3.912963] (-) TimerEvent: {}
+[4.013362] (-) TimerEvent: {}
+[4.113762] (-) TimerEvent: {}
+[4.214144] (-) TimerEvent: {}
+[4.314522] (-) TimerEvent: {}
+[4.390157] (cpp_get_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/FindLidar.dir/build.make:76: CMakeFiles/FindLidar.dir/src/FindLidar.cpp.o] Error 1\n'}
+[4.390749] (cpp_get_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/FindLidar.dir/all] Error 2\n'}
+[4.391103] (cpp_get_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.393946] (cpp_get_pkg) CommandEnded: {'returncode': 2}
+[4.402712] (cpp_get_pkg) JobEnded: {'identifier': 'cpp_get_pkg', 'rc': 2}
+[4.403446] (-) EventReactorShutdown: {}

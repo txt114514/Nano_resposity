@@ -1,0 +1,40 @@
+[0.084s] Invoking command in '/home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/Elaina/packages/ros_ws/install/ros_tcp_endpoint:/home/Elaina/packages/ros_ws/install/robot_imu:/opt/ros/humble /usr/bin/cmake --build /home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg -- -j22 -l22
+[0.493s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.736s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.055s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.096s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.110s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.220s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.280s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.322s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.374s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.492s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.698s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.737s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.908s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.908s] -- Configured cppcheck include dirs: 
+[1.908s] -- Configured cppcheck exclude dirs and/or files: 
+[1.909s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.910s] -- Added test 'lint_cmake' to check CMake code style
+[1.911s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.912s] -- Added test 'uncrustify' to check C / C++ code style
+[1.912s] -- Configured uncrustify additional arguments: 
+[1.913s] -- Added test 'xmllint' to check XML markup files
+[1.914s] -- Configuring done
+[1.918s] [31mCMake Error at CMakeLists.txt:40 (add_executable):
+[1.918s]   Cannot find source file:
+[1.918s] 
+[1.918s]     src/ShowPoint.cpp
+[1.918s] 
+[1.918s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[1.918s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[1.919s] 
+[1.919s] [0m
+[1.919s] [31mCMake Error at CMakeLists.txt:40 (add_executable):
+[1.919s]   No SOURCES given to target: ShowPoint
+[1.919s] 
+[1.919s] [0m
+[1.919s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.923s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[1.925s] Invoked command in '/home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/Elaina/packages/ros_ws/install/ros_tcp_endpoint:/home/Elaina/packages/ros_ws/install/robot_imu:/opt/ros/humble /usr/bin/cmake --build /home/Elaina/lidarfind/lidarfind_ws/build/cpp_get_pkg -- -j22 -l22

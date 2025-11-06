@@ -1,0 +1,17 @@
+[01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:[m[K In member function ‘[01m[Kvoid FindLidar::ProcessData(int)[m[K’:
+[01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:120:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<FindLidar::SaveTFData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  120 |             for (int i = 0; [01;35m[Ki < PlaceList.size()[m[K; ++i)
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:145:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<FindLidar::SaveTFData>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  145 |             for (int i = 0; [01;35m[Ki < center.size()[m[K; ++i) // 计算平均值
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:153:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kfile[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kfill[m[K’?
+  153 |             std::[01;31m[Kfile[m[K << "圆心位置计算完成，原点位置为：x = %.3f , y = %.3f", avg_x, avg_y << std::endl;
+      |                  [01;31m[K^~~~[m[K
+      |                  [32m[Kfill[m[K
+[01m[K/home/Elaina/lidarfind/lidarfind_ws/src/cpp_get_pkg/src/FindLidar.cpp:153:92:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kfloat[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’ to binary ‘[01m[Koperator<<[m[K’
+  153 |             std::file << "圆心位置计算完成，原点位置为：x = %.3f , y = %.3f", avg_x, [01;31m[Kavg_y << std::endl[m[K;
+      |                                                                                      [01;31m[K~~~~~~^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/FindLidar.dir/build.make:76: CMakeFiles/FindLidar.dir/src/FindLidar.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/FindLidar.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
