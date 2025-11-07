@@ -35,7 +35,9 @@ class FindLidar : public rclcpp::Node
         float x, y, z;
         float qx, qy, qz, qw;
     };
-
+    SaveTFData lidar_tf;
+    bool is_first = true;
+    int marker_id_counter = 0;
 public:
     FindLidar() : Node("FindLidar")
     {
@@ -54,7 +56,6 @@ public:
         marker_.ns = "tf_point";
         marker_.type = visualization_msgs::msg::Marker::SPHERE;
         marker_.action = visualization_msgs::msg::Marker::ADD;
-
         marker_.scale.x = 0.10; // 点大小
         marker_.scale.y = 0.10;
         marker_.scale.z = 0.10;
@@ -68,7 +69,7 @@ public:
     {
     }
     int check_time = 0;
-    int GetTFMessage(SaveTFData &lidar_tf) // 获取节点TF数据
+    int GetTFMessage() // 获取节点TF数据
     {
         try
         {
@@ -76,6 +77,7 @@ public:
             geometry_msgs::msg::TransformStamped transformStamped = tf_buffer->lookupTransform("camera_init", "aft_mapped", tf2::TimePointZero);
 
             marker_.header.stamp = this->now(); // 时间戳
+            marker_.id = marker_id_counter++; // 每个点一个ID
             marker_.pose.position.x = transformStamped.transform.translation.x;
             marker_.pose.position.y = transformStamped.transform.translation.y;
             marker_.pose.position.z = 0.0; // 强制 2D 平面
@@ -88,9 +90,11 @@ public:
                 std::fabs(lidar_tf.qx - transformStamped.transform.rotation.x) <= MIN_ERROR_DISTANCE &&
                 std::fabs(lidar_tf.qy - transformStamped.transform.rotation.y) <= MIN_ERROR_DISTANCE &&
                 std::fabs(lidar_tf.qz - transformStamped.transform.rotation.z) <= MIN_ERROR_DISTANCE &&
-                std::fabs(lidar_tf.qw - transformStamped.transform.rotation.w) <= MIN_ERROR_DISTANCE)
+                std::fabs(lidar_tf.qw - transformStamped.transform.rotation.w) <= MIN_ERROR_DISTANCE &&
+                is_first == false)
             {
                 check_time++;
+                
                 RCLCPP_INFO(this->get_logger(), " 位置未变化");
                 return 1; // 位置未变化
             }
@@ -103,6 +107,7 @@ public:
                 lidar_tf.qy = transformStamped.transform.rotation.y;
                 lidar_tf.qz = transformStamped.transform.rotation.z;
                 lidar_tf.qw = transformStamped.transform.rotation.w;
+                is_first = false;
                 RCLCPP_INFO(this->get_logger(), " 位置有变化: x = %.3f , y = %.3f , z = %.3f", lidar_tf.x, lidar_tf.y, lidar_tf.z);
                 return 0; // 位置有变化
             }
@@ -117,8 +122,8 @@ public:
     }
     void SaveTFMessage() //
     {
-        SaveTFData lidar_tf;
-        int check_stop = GetTFMessage(lidar_tf);
+        //SaveTFData lidar_tf;
+        int check_stop = GetTFMessage();
         if (check_stop != 0)
         {
             ProcessData(check_stop);
@@ -187,7 +192,7 @@ public:
             center_marker.header.frame_id = "camera_init";
             center_marker.header.stamp = this->now();
             center_marker.ns = "center_point";
-            center_marker.id = 0; // Marker ID，不和已有蓝点冲突即可
+            center_marker.id = 999; // Marker ID，不和已有蓝点冲突即可
             center_marker.type = visualization_msgs::msg::Marker::SPHERE;
             center_marker.action = visualization_msgs::msg::Marker::ADD;
             center_marker.pose.position.x = avg_x;
